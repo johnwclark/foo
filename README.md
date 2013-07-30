@@ -2,5 +2,4 @@ foo
 ===
 
 test repo
-
-I made a file change
+made a change to checkout the github issue tracker

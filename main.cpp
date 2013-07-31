@@ -1,4 +1,8 @@
-#include <stdio.h>
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+#include "Foo.h"
 
 int main ()
 {
@@ -10,6 +14,11 @@ int main ()
 		printf("%d ", 10 - i );
 	}
 	printf("\n");
+
+    {
+        Foo f;
+        f.func();
+    }
 
 	return 0;
 }

@@ -11,5 +11,5 @@ all: ${TARGETS}
 clean:
 	rm -f *.o ${TARGETS}
 
-main.o: main.cpp
+main.o: main.cpp Foo.h
 

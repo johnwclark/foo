@@ -7,13 +7,13 @@ using namespace std;
 int main ()
 {
     int i;
-	printf("Hello world!\n");
+    cout <<  "Howdy world!" << endl;
 
 	for ( i = 0 ; i < 10 ; ++i )
 	{
-		printf("%d ", 10 - i );
+	    cout << ( 10 - i ) << ' ';
 	}
-	printf("\n");
+    cout << endl;
 
     {
         Foo f;
